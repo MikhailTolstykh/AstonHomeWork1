@@ -2,7 +2,7 @@ public class Archer extends Hero implements Mortal{
   private final int DAMAGE =25;
   private   int health;
     public Archer(String name) {
-        super(name);
+      super(name);
     }
 
     public Archer(String name, int health) {
